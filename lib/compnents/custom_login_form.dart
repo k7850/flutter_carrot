@@ -30,7 +30,7 @@ class CustomLoginForm extends StatelessWidget {
             validate: validatePassword(),
             textController: _password,
           ),
-          Align(alignment: Alignment(1, 1), child: Text("Forgot Password?", style: Theme.of(context).textTheme.labelLarge)),
+          Align(alignment: Alignment(1, 0), child: Text("Forgot Password?", style: Theme.of(context).textTheme.labelLarge)),
           SizedBox(height: size_25_gap),
           TextButton(
             // form 안에 들어가면 summit 버튼임
